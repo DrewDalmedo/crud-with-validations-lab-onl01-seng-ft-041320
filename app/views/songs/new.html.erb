@@ -1,0 +1,7 @@
+<%= form_tag("/songs") do %>
+    <%= text_field_tag "song[title]"%><br>
+    <%= number_field_tag "song[release_year]"%><br>
+    <%= check_box_tag "song[released]"%><br>
+    <%= text_field_tag "song[genre]"%><br>
+    <%= text_field_tag "song[artist_name]"%>
+<% end %>
